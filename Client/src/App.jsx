@@ -1,11 +1,12 @@
-import Navbar from './components/Navbar'
+import Navbar from "./components/Navbar";
+import SignInPage from "./pages/SignInPage";
 function App() {
   return (
     <>
-       <Navbar/>
-       <SignInPage></SignInPage>
+      {/* <Navbar/> */}
+      <SignInPage/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
