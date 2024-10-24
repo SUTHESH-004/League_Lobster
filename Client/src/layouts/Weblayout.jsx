@@ -6,7 +6,7 @@ const Weblayout = () => {
 	return (
 		<>
 			<div className='h-screen w-screen overflow-x-hidden bg-black'>
-				<div className=''>
+				<div className='justify-center w-screen flex'>
 					<Navbar />
 				</div>
 
